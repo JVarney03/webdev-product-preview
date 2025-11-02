@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/webdev-product-preview/assets/favicon-32x32-DQjEQYWa.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" crossorigin href="/webdev-product-preview/assets/index-hnBrK6Lf.css">
+  </head>
+  <body class="font-montserrat">
+    <main class="bg-cream min-h-screen w-screen content-center">
+      <div
+        class="mx-auto my-25 max-w-sm overflow-hidden rounded-lg bg-white sm:grid sm:max-w-2xl sm:grid-cols-2"
+      >
+        <picture class="flex">
+          <source
+            srcset="/webdev-product-preview/assets/image-product-desktop-BjYfQaQN.jpg"
+            media="(width >= 40rem)"
+          />
+
+          <img src="/webdev-product-preview/assets/image-product-mobile-cEYUpi0C.jpg" alt="Perfume" />
+        </picture>
+
+        <div class="flex flex-col gap-6 p-8">
+          <h2 class="text-grey font-medium tracking-[4px]">PERFUME</h2>
+          <h1 class="font-fraunces text-4xl font-bold">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="text-grey text-sm/6">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <h2 class="font-fraunces flex text-4xl font-bold text-green-500">
+            $149.99<span
+              class="text-grey ml-6 content-center text-sm font-medium line-through"
+              >$169.99</span
+            >
+          </h2>
+          <button
+            class="hocus:bg-green-700 flex items-center justify-center rounded-lg bg-green-500 py-4"
+            type="button"
+          >
+            <img class="h-4" src="data:image/svg+xml,%3csvg%20width='15'%20height='16'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.383%2010.388a2.397%202.397%200%200%200-1.518-2.222l1.494-5.593a.8.8%200%200%200-.144-.695.8.8%200%200%200-.631-.28H2.637L2.373.591A.8.8%200%200%200%201.598%200H0v1.598h.983l1.982%207.4a.8.8%200%200%200%20.799.59h8.222a.8.8%200%200%201%200%201.599H1.598a.8.8%200%201%200%200%201.598h.943a2.397%202.397%200%201%200%204.507%200h1.885a2.397%202.397%200%201%200%204.331-.376%202.397%202.397%200%200%200%201.12-2.021ZM11.26%207.99H4.395L3.068%203.196h9.477L11.26%207.991Zm-6.465%206.392a.8.8%200%201%201%200-1.598.8.8%200%200%201%200%201.598Zm6.393%200a.8.8%200%201%201%200-1.598.8.8%200%200%201%200%201.598Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt="Cart" />
+            <span class="ml-3 text-sm font-bold text-white">Add to Cart</span>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
